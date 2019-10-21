@@ -1,0 +1,6 @@
+
+## Prerequisite
+
+```
+pip install pefile
+```
