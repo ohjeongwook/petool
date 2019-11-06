@@ -8,14 +8,14 @@ setuptools.setup(
     version="0.0.1",
     author="Matt Oh",
     author_email="jeongoh@darungrim.com",
-    description="IDA Tool",
+    description="PE Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ohjeongwook/idatool",
+    url="https://github.com/ohjeongwook/petool",
     packages=setuptools.find_packages(),
-      install_requires=[
-          'pefile',
-      ],
+    install_requires=[
+        'pefile',
+    ],
     classifiers=[
         "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
