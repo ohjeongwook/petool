@@ -25,3 +25,15 @@ pip install git+https://github.com/ohjeongwook/petool --upgrade
 ```
 python %PYTHONHOME%\Lib\site-packages\petool\petool.py
 ```
+
+---
+## Use Case
+
+---
+### Fixing Sections
+
+* After dumping PE image from process, you can use petool to fix sections.
+
+```
+python -m petool.petool -c fix <input> <output>
+```
