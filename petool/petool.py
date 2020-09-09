@@ -59,7 +59,7 @@ class PEFile:
             print('\tName: [%s]' % section.Name)
             print('\tVirtualAddress: %x' % section.VirtualAddress)
             print('\tMisc_VirtualSize: %x' % section.Misc_VirtualSize)
-            print('\tPointerToRawData: %x' % section.PointerToRawData)
+            print('\tPointerToRawData: %x -> %x' % (section.PointerToRawData, section.VirtualAddress))
             print('\tSizeOfRawData: %x' % section.SizeOfRawData)
             print('')
             
